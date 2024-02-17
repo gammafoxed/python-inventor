@@ -13,5 +13,10 @@ def get_data():
     return "Lol Kek"
 
 
+@app.route('/projects')
+def projects_page():
+    return render_template('projects.html')
+
+
 def start():
     app.run(debug=True)
