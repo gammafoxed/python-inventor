@@ -1,0 +1,20 @@
+body {
+    padding-top: 64px;
+}
+
+.sidebar {
+    padding-top: 20px;
+}
+
+.brand-logo {
+    padding-left: 20px;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.collection-item:hover {
+    background-color: #7fb2ef;
+    cursor: pointer;
+}
