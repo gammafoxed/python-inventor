@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Packline PM</title>
+	<script src="../static/app.js"></script>
+	<script src="../static/js/materialize.min.js"></script>
+	<link rel="stylesheet" href="../static/css/materialize.min.css">
+	<link rel="stylesheet" href="../static/app.css">
+</head>
+<body>
+<div class="container">
+	<nav class="blue lighten-1">
+		<div class="nav-wrapper">
+			<a href="/" class="brand-logo" style="padding-left: 20px">Packline PM</a>
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li><a href="/projects">Projects</a></li>
+				<li><a href="/something">Something</a></li>
+				<li><a href="/inventor">Inventor</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div>
+		{% block content %}
+		{% endblock %}
+	</div>
+</div>
+</body>
+</html>

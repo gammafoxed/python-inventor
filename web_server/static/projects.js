@@ -1,1 +1,0 @@
-console.debug('Projects page is loaded')

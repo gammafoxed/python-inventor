@@ -1,3 +1,4 @@
+
 class InventorSync:
     def __init__(self):
         pass
